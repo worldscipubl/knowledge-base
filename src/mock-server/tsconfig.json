@@ -1,0 +1,20 @@
+[
+  {
+    "id": "6I-SFopayxe4fpPwXht4T3rqc7llAkZu7",
+    "parent": "7I-SFopayxe4fpPwXht4T3rqc7llAkZu7",
+    "name": "Файл.docx",
+    "type": "file",
+    "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "size": "93365",
+    "thumbnailLink": "https://lh3.googleusercontent.com/Q5BqVvV6rsc63za_OIu3PUkLNkbNlGtewSh_MaVdhJLR0GYGmXMEe586JcNxzmNUjheWFLnKNBATj0M=s220"
+  },
+  {
+    "id": "5I-SFopayxe4fpPwXht4T3rqc7llAkZu7",
+    "parent": "7I-SFopayxe4fpPwXht4T3rqc7llAkZu7",
+    "name": "Папка",
+    "type": "folder",
+    "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder+shared",
+    "size": 0,
+    "thumbnailLink": ""
+  }
+]

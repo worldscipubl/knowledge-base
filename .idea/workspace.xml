@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41a2db4-7450-472e-bb48-9b1bb129b259" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/EmptyState/EmptyState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/ErrorBoundary/ErrorBoundary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/NotFoundPage/NotFoundPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ViewerPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/ApiService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/HTTPError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/KnowledgeService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +17,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="10055" />
+    <option name="totalTimeSeconds" value="13805" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="tsconfig.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/domain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/services" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -50,11 +52,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/services" />
       <recent name="$PROJECT_DIR$/src/domain" />
       <recent name="$PROJECT_DIR$/src/pages/ViewerPage" />
       <recent name="$PROJECT_DIR$/src/pages/ExplorerPage" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -81,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631599473589</updated>
       <workItem from="1631599474855" duration="606000" />
-      <workItem from="1631605577417" duration="9907000" />
+      <workItem from="1631605577417" duration="13568000" />
     </task>
     <servers />
   </component>

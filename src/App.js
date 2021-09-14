@@ -1,6 +1,6 @@
 import React from "react";
-import "./common/style/app.scss";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import "./common/style/app.scss";
 import ExplorerPage from "./pages/ExplorerPage";
 import { NotFoundPage } from "./domain/NotFoundPage/NotFoundPage";
 import ViewerPage from "./pages/ViewerPage";
