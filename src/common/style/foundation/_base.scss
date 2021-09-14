@@ -1,0 +1,16 @@
+@use '../global' as *;
+
+html {
+  background-color: #f5f5f5;
+}
+
+.app {
+  max-width: 980px;
+  margin: 2rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  padding: 1em;
+  border-radius: 4px;
+}
