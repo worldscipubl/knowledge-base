@@ -1,16 +1,37 @@
 import React from "react";
-import classNames from "classnames";
 import PropTypes from "prop-types";
-import styles from "./Typography.module.scss";
+import { withNaming } from "@bem-react/classname";
+import "./Typography.scss";
 
-const Typography = ({ tag, size, children, className }) => {
+const Typography = ({
+  tag,
+  children,
+  className,
+  href,
+  appearance: { color, size, weight, align } = {},
+}) => {
   const VariantTag = getVariantTag(tag);
-  const style = classNames(styles.text, className, {});
+  const cn = withNaming({ e: "__", m: "_", v: "_" });
+  const style = cn("text");
 
-  return <VariantTag className={style}>{children}</VariantTag>;
+  return (
+    <VariantTag className={style({ color, size, weight, align }, [className])}>
+      {children}
+    </VariantTag>
+  );
 };
 
-export const variantTags = ["h1", "h2", "h3", "h4", "h5", "h6", "p", "span"];
+export const variantTags = [
+  "a",
+  "h1",
+  "h2",
+  "h3",
+  "h4",
+  "h5",
+  "h6",
+  "p",
+  "span",
+];
 const getVariantTag = (tag) => {
   return variantTags.includes(tag) ? tag : "p";
 };

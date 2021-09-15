@@ -1,0 +1,75 @@
+@use './src/common/style/global' as *;
+
+.explorer-cell {
+  display: flex;
+  flex: 1 1 220px;
+  overflow: hidden;
+  padding: 0.35em;
+  position: relative;
+  vertical-align: top;
+  max-width: 100%;
+  min-width: 0;
+  cursor: pointer;
+
+  &:before {
+    content: "";
+    height: 0;
+    padding-bottom: calc(100%);
+  }
+}
+
+.explorer-cell__inner {
+  display: flex;
+  flex: 1 1 auto;
+  outline: none;
+  overflow: hidden;
+
+  background-color: #fff;
+  border: 1px solid #dadce0;
+  border-radius: 0.5em;
+
+  flex-direction: column;
+  position: relative;
+  transition: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+.explorer-cell__body {
+  height: auto;
+  flex: 1 1 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.explorer-cell__footer {
+  width: 100%;
+  display: flex;
+  flex: 0 0 48px;
+  padding: 0.25em;
+  align-items: center;
+  justify-content: center;
+}
+
+.explorer-cell__img {
+  display: block;
+  vertical-align: bottom;
+  position: absolute;
+  object-fit: contain;
+  width: 74%;
+  left: 0;
+  right: 0;
+  height: 100%;
+  margin: auto;
+}
+
+.explorer-cell__title {
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  width: calc(100% - 24px);
+}

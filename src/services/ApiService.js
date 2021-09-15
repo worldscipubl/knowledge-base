@@ -9,7 +9,6 @@ class ApiService {
       baseURL: this._API_BASE,
       headers: { "Content-Type": "application/json" },
       withCredentials: false,
-      auth: { username: "rayec89552@aline9.com", password: "DzeG3Jx@}G$p" },
     });
   }
 
