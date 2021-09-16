@@ -5,4 +5,9 @@
   grid-gap: 0;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 18px;
+
+  margin: -0.35em;
 }

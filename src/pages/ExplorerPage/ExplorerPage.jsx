@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { useHistory, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import knowledgeService from "../../services/KnowledgeService";
 import ExplorerCell from "../../components/ExplorerCell";
 import "./ExplorerPage.scss";
 
-const ExplorerPage = () => {
-  const history = useHistory();
-  const { folderId } = useParams();
+const ExplorerPage = ({ setTitle }) => {
+  const { folderId, folderName } = useParams();
   const [loading, setLoading] = useState(true);
-  const [data, setData] = useState(true);
+  const [data, setData] = useState(null);
   const getResource = (folderId) => {
     if (!folderId) return knowledgeService.getRootDir();
     return knowledgeService.getDirById(folderId);
@@ -19,6 +18,7 @@ const ExplorerPage = () => {
       .then((data) => {
         console.log(data);
         setData(data);
+        setTitle && setTitle(folderName);
       })
       .catch((error) => {
         console.log(error);
@@ -26,7 +26,7 @@ const ExplorerPage = () => {
       .finally(() => {
         setLoading(false);
       });
-  }, [folderId]);
+  }, [folderId, folderName]);
 
   if (loading) return <h2>Загрузка...</h2>;
 

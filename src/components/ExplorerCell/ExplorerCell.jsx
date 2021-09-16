@@ -12,7 +12,13 @@ const ExplorerCell = ({ className, title, type, id }) => {
 
   return (
     <NavLink
-      to={id ? (type === "file" ? `/viewer/${id}` : `/explorer/${id}`) : false}
+      to={
+        id
+          ? type === "file"
+            ? `/viewer/${id}/${title}`
+            : `/explorer/${id}/${title}`
+          : false
+      }
       className={style(null, [className])}
     >
       <div className={style("inner")}>

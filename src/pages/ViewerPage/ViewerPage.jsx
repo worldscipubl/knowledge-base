@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
+import knowledgeService from "../../services/KnowledgeService";
+import DocsViewer from "../../components/DocsViewer";
+import "./ViewerPage.scss";
 
-const ViewerPage = () => {
+const ViewerPage = ({ setTitle }) => {
+  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState(null);
   const history = useHistory();
-  const { fileId } = useParams();
+  const { fileId, folderName } = useParams();
+
+  useEffect(() => {
+    setTitle && setTitle(folderName);
+  }, [fileId, folderName]);
 
   return (
-    <div>
-      <h2>viewer</h2>
-      <p>{'fileId: ' + fileId}</p>
+    <div className="viewer-page">
+      <DocsViewer className="" fileId={fileId} />
     </div>
   );
 };

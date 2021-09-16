@@ -1,3 +1,55 @@
 @charset "UTF-8";
-
 @use 'foundation';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app__header {
+  flex: 0 0 58px;
+  width: 100%;
+  background-color: #ecba40;
+
+  @media screen and (min-height: 1200px) {
+    flex: 1 0 58px;
+  }
+}
+
+.app__navbar {
+  flex: 0 0 58px;
+  width: 100%;
+  @media screen and (min-height: 1200px) {
+    flex: 1 0 58px;
+  }
+}
+
+.app__content {
+  width: 100%;
+  flex: 1 0;
+  height: 0;
+
+  @media screen and (min-height: 1200px) {
+    flex: 48 0;
+  }
+}
+
+$p-side: 20px;
+$maxWidthContainer: 1200px;
+$maxWidthContainer: $maxWidthContainer + 2 * $p-side;
+.container {
+  max-width: $maxWidthContainer;
+  margin: 0 auto;
+  padding: 0 $p-side;
+
+  @media screen and (min-width: 1440px) {
+    max-width: #{get-vw($maxWidthContainer, 1440px)};
+    padding: 0 #{get-vw($p-side, 1440px)};
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0 12px;
+  }
+}

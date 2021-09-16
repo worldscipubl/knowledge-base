@@ -1,0 +1,29 @@
+@use './src/common/style/global' as *;
+
+.img-button {
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  padding: 0.8em 0.4em;
+  text-decoration: none;
+  transition: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgba(216, 217, 219, .5);
+
+  &:hover {
+    background-color: rgba(216, 217, 219, 1);
+  }
+
+  &__img {
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    height: 18px;
+    width: 18px;
+
+    &_mirrorY {
+      transform: rotateY(180deg);
+    }
+  }
+}

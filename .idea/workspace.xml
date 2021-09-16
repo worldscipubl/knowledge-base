@@ -2,22 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41a2db4-7450-472e-bb48-9b1bb129b259" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/images/icons/file-pdf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/images/icons/folder.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ExplorerCell/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/images/icons/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/images/icons/phone-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DocsViewer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImgButton/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/Typography.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Typography/Typography.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/Typography.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Typography/Typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/style/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/style/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/style/foundation/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/style/foundation/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ApiService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +33,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="33320" />
+    <option name="totalTimeSeconds" value="44085" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/ExplorerCell" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/images/icons" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/ExplorerCell" />
       <recent name="$PROJECT_DIR$/src/common/images/icons" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/DocsViewer" />
+      <recent name="$PROJECT_DIR$/src/components/ExplorerCell" />
       <recent name="$PROJECT_DIR$/src/services" />
-      <recent name="$PROJECT_DIR$/src/domain" />
-      <recent name="$PROJECT_DIR$/src/pages/ViewerPage" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -95,7 +103,8 @@
       <workItem from="1631605577417" duration="13568000" />
       <workItem from="1631633353278" duration="2810000" />
       <workItem from="1631681256784" duration="4951000" />
-      <workItem from="1631719334399" duration="10592000" />
+      <workItem from="1631719334399" duration="10966000" />
+      <workItem from="1631768114686" duration="9921000" />
     </task>
     <servers />
   </component>
@@ -113,6 +122,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add upload folders" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
