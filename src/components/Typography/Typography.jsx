@@ -8,30 +8,22 @@ const Typography = ({
   children,
   className,
   href,
-  appearance: { color, size, weight, align } = {},
+  appearance: { color, size, weight, align, full = false } = {},
 }) => {
   const VariantTag = getVariantTag(tag);
   const cn = withNaming({ e: "__", m: "_", v: "_" });
   const style = cn("text");
 
   return (
-    <VariantTag className={style({ color, size, weight, align }, [className])}>
+    <VariantTag
+      className={style({ color, size, weight, align, full }, [className])}
+    >
       {children}
     </VariantTag>
   );
 };
 
-export const variantTags = [
-  "a",
-  "h1",
-  "h2",
-  "h3",
-  "h4",
-  "h5",
-  "h6",
-  "p",
-  "span",
-];
+const variantTags = ["a", "h1", "h2", "h3", "h4", "h5", "h6", "p", "span"];
 const getVariantTag = (tag) => {
   return variantTags.includes(tag) ? tag : "p";
 };

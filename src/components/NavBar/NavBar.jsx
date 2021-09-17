@@ -9,7 +9,7 @@ import "./NavBar.scss";
 const NavBar = ({ className, title = "" }) => {
   const history = useHistory();
   const cn = withNaming({ e: "__", m: "_", v: "_" });
-  const style = cn("navbar");
+  const style = cn("navBar");
 
   const BackBtn = () => (
     <ImgButton

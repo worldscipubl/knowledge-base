@@ -46,6 +46,10 @@ $text-colors: (
   @extend %text;
   color: map-get($text-colors, "black");
 
+  &_full {
+    width: 100%;
+  }
+
   &_size {
     @each $size, $val in $text-sizes {
       &_#{$size} {
@@ -83,7 +87,14 @@ $text-colors: (
   &_align {
     &_center {
       text-align: center;
-      vertical-align: center;
+    }
+
+    &_left {
+      text-align: left;
+    }
+
+    &_right {
+      text-align: right;
     }
   }
 }

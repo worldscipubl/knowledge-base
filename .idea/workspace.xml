@@ -2,30 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41a2db4-7450-472e-bb48-9b1bb129b259" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/images/icons/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/images/icons/phone-call.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DocsViewer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ImgButton/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/images/menu/blog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/images/menu/bot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/images/menu/cabinet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/images/menu/favorites.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/images/menu/site.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DrawerMenu/DrawerMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DrawerMenu/DrawerMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainMenu/MainMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainMenu/MainMenu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/style/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/style/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/style/foundation/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/style/foundation/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Typography/Typography.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Typography/Typography.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Typography/Typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Typography/Typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="44085" />
+    <option name="totalTimeSeconds" value="58694" />
+    <option name="naggedAbout" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,28 +54,51 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/images/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common" />
       <recent name="$PROJECT_DIR$/src/common/images/icons" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/DocsViewer" />
       <recent name="$PROJECT_DIR$/src/components/ExplorerCell" />
-      <recent name="$PROJECT_DIR$/src/services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common/images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -90,6 +111,12 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,7 +131,11 @@
       <workItem from="1631633353278" duration="2810000" />
       <workItem from="1631681256784" duration="4951000" />
       <workItem from="1631719334399" duration="10966000" />
-      <workItem from="1631768114686" duration="9921000" />
+      <workItem from="1631768114686" duration="10083000" />
+      <workItem from="1631787942280" duration="666000" />
+      <workItem from="1631812230696" duration="3612000" />
+      <workItem from="1631870283587" duration="2407000" />
+      <workItem from="1631900210708" duration="7572000" />
     </task>
     <servers />
   </component>

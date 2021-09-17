@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { withNaming } from "@bem-react/classname";
-import "./Header.scss";
 import logoBlackImg from "../../common/images/logo/logo_black.svg";
 import phoneCallImg from "../../common/images/icons/phone-call.svg";
+import "./Header.scss";
+import DrawerMenu from "../DrawerMenu/DrawerMenu";
 
 const Header = ({ className, title = "" }) => {
   const cn = withNaming({ e: "__", m: "_", v: "_" });
+  const [showMenu, setShowMenu] = useState(false);
   const style = cn("header");
+
+  const handlerMenu = () => {
+    setShowMenu((prevState) => !prevState);
+  };
 
   return (
     <header className={style(null, { bg: "white" }[className])} id="header">
@@ -41,7 +47,10 @@ const Header = ({ className, title = "" }) => {
             </a>
           </li>
           <li className="header__action-item">
-            <button className="burger js-burger">
+            <button
+              className={`burger ${!!showMenu ? "is_active" : ""}`}
+              onClick={handlerMenu}
+            >
               <span className="burger__item"></span>
               <span className="burger__item"></span>
               <span className="burger__item"></span>
@@ -49,6 +58,7 @@ const Header = ({ className, title = "" }) => {
           </li>
         </ul>
       </div>
+      <DrawerMenu showMenu={showMenu} />
     </header>
   );
 };

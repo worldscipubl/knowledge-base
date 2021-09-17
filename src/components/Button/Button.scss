@@ -12,6 +12,10 @@
   padding: 0.8em;
   text-decoration: none;
 
+  &_full {
+    width: 100%;
+  }
+
   &_type {
     &_main {
       background-color: $white;
@@ -43,13 +47,43 @@
         font-size: 12px;
       }
     }
-  }
 
-  &:hover {
-    text-decoration: none;
-    background-color: $green;
-    border: 1px solid $green;
-    color: $white;
+    &_menu {
+      border-radius: 6px;
+      border-width: 0;
+      overflow: hidden;
+      padding: 14px 24px;
+      background: #f5f5f5;
+      box-shadow: none;
+      color: $gray-blue;
+      text-align: left;
+
+      &:hover {
+        background: #E1E1E1;
+        color: $gray-blue;
+      }
+
+      @include less-than(420px) {
+        font-size: 14px;
+      }
+
+      @include less-than(340px) {
+        font-size: 12px;
+      }
+    }
+
+    &_submit {
+      height: fit-content;
+      font-family: $fontMain;
+      font-weight: normal;
+      color: #FFFFFF;
+      background: #219653;
+      @include font-size(14px);
+
+      @include less-than($bp-md-768) {
+        font-size: 12px;
+      }
+    }
   }
 
   &__img {
