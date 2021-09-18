@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./DrawerMenu.scss";
 import MainMenu from "../MainMenu/MainMenu";
 
 const DrawerMenu = ({ showMenu }) => {
-
   return (
     <div className={`drawer ${!!showMenu ? "is_active" : ""}`}>
       <div className="drawer__overlay js-drawer-overlay"></div>

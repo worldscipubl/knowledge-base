@@ -15,7 +15,7 @@ const ImgButton = ({
       className={style(null, [className])}
       onClick={(event) => onClick && onClick(event)}
     >
-      <img className={style("img", { mirrorY })} src={img} />
+      <img className={style("img", { mirrorY })} src={img} alt="" />
     </button>
   );
 };

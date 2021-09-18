@@ -12,9 +12,7 @@ const Button = ({
   const cn = withNaming({ e: "__", m: "_", v: "_" });
   const style = cn("button");
 
-  console.log(type);
-
-  if (mode == "link") {
+  if (mode === "link") {
     return (
       <a
         className={style("", { type: type, full: !!full }, [className])}
@@ -25,7 +23,7 @@ const Button = ({
     );
   } else {
     return (
-      <button className={style(null, { type: type }[className])} {...props}>
+      <button className={style("", { type: type }, [className])} {...props}>
         {children}
       </button>
     );

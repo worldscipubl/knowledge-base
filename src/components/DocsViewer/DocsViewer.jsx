@@ -2,7 +2,7 @@ import React from "react";
 import { withNaming } from "@bem-react/classname";
 import "./DocsViewer.scss";
 
-const DocsViewer = ({ fileId, className }) => {
+const DocsViewer = ({ fileId, title, className }) => {
   const cn = withNaming({ e: "__", m: "_", v: "_" });
   const style = cn("docs-viewer");
 
@@ -12,6 +12,7 @@ const DocsViewer = ({ fileId, className }) => {
     <div className={style(null, [className])}>
       <iframe
         className={style("inner")}
+        title={title}
         src={`https://drive.google.com/file/d/${fileId}/preview`}
       />
     </div>

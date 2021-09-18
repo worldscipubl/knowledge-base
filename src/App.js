@@ -9,12 +9,13 @@ import Header from "./components/Header/Header";
 
 export const App = () => {
   const [title, setTitle] = useState("");
+  const [id, setId] = useState("");
 
   return (
     <BrowserRouter basename={process.env.REACT_APP_BASENAME}>
       <div className="app">
         <Header className="app__header" />
-        <NavBar className="app__navbar" title={title} />
+        <NavBar className="app__navbar" title={title} id={id} />
 
         <div className="app__content">
           <Switch>
@@ -22,12 +23,12 @@ export const App = () => {
               <Redirect to="/explorer" />
             </Route>
 
-            <Route path="/explorer/:folderId?/:folderName?">
+            <Route path="/explorer/:folderId?">
               <ExplorerPage setTitle={setTitle} />
             </Route>
 
-            <Route path="/viewer/:fileId?/:folderName?">
-              <ViewerPage setTitle={setTitle} />
+            <Route path="/viewer/:fileId?">
+              <ViewerPage setTitle={setTitle} setId={setId} />
             </Route>
 
             <Route>

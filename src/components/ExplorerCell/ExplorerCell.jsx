@@ -12,13 +12,7 @@ const ExplorerCell = ({ className, title, type, id }) => {
 
   return (
     <NavLink
-      to={
-        id
-          ? type === "file"
-            ? `/viewer/${id}/${title}`
-            : `/explorer/${id}/${title}`
-          : false
-      }
+      to={id ? (type === "file" ? `/viewer/${id}` : `/explorer/${id}`) : false}
       className={style(null, [className])}
     >
       <div className={style("inner")}>
@@ -26,6 +20,7 @@ const ExplorerCell = ({ className, title, type, id }) => {
           <img
             className={style("img")}
             src={type === "folder" ? folderImg : filePdfImg}
+            alt=""
           />
         </div>
         <div className={style("footer")}>

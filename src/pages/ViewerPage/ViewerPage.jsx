@@ -1,22 +1,30 @@
-import React, { useEffect, useState } from "react";
-import { useHistory, useParams } from "react-router-dom";
-import knowledgeService from "../../services/KnowledgeService";
+import React, { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import DocsViewer from "../../components/DocsViewer";
 import "./ViewerPage.scss";
+import knowledgeService from "../../services/KnowledgeService";
 
-const ViewerPage = ({ setTitle }) => {
-  const [loading, setLoading] = useState(true);
-  const [data, setData] = useState(null);
-  const history = useHistory();
-  const { fileId, folderName } = useParams();
+const ViewerPage = ({ setTitle, setId }) => {
+  const { fileId } = useParams();
 
   useEffect(() => {
-    setTitle && setTitle(folderName);
-  }, [fileId, folderName]);
+    setId && setId(fileId);
+    knowledgeService
+      .getFileById(fileId)
+      .then((data) => {
+        // data && data[0] && setTitle && setTitle(data[0]?.parentName);
+      })
+      .catch((error) => {
+        console.log(error);
+      })
+      .finally(() => {
+        // setLoading(false);
+      });
+  }, [fileId]);
 
   return (
     <div className="viewer-page">
-      <DocsViewer className="" fileId={fileId} />
+      <DocsViewer className="" title={"folderName"} fileId={fileId} />
     </div>
   );
 };

@@ -5,7 +5,7 @@ import ExplorerCell from "../../components/ExplorerCell";
 import "./ExplorerPage.scss";
 
 const ExplorerPage = ({ setTitle }) => {
-  const { folderId, folderName } = useParams();
+  const { folderId } = useParams();
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState(null);
   const getResource = (folderId) => {
@@ -16,9 +16,8 @@ const ExplorerPage = ({ setTitle }) => {
   useEffect(() => {
     getResource(folderId)
       .then((data) => {
-        console.log(data);
         setData(data);
-        setTitle && setTitle(folderName);
+        data && data[0] && setTitle && setTitle(data[0]?.parentName);
       })
       .catch((error) => {
         console.log(error);
@@ -26,10 +25,10 @@ const ExplorerPage = ({ setTitle }) => {
       .finally(() => {
         setLoading(false);
       });
-  }, [folderId, folderName]);
+  }, [folderId]);
 
   if (loading) return <h2>Загрузка...</h2>;
-
+  if (!data) return <h2>Empty</h2>;
   return (
     <div className="explorer">
       {data.map(({ id, name, type }) => (

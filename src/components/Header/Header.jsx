@@ -17,7 +17,12 @@ const Header = ({ className, title = "" }) => {
   return (
     <header className={style(null, { bg: "white" }[className])} id="header">
       <div className="header__inner">
-        <a className="header__logo logo-header" href="/">
+        <a
+          className="header__logo logo-header"
+          href="https://worldscipubl.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             className="logo-header__img"
             src={logoBlackImg}

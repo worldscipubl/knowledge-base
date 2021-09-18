@@ -24,16 +24,29 @@ const MainMenu = () => {
   );
 
   const Links = () => {
+    const baseUrl = "https://worldscipubl.com";
     const listLinks = [
-      { title: "⚙️ Подробный аудит статьи с рецензией", link: "" },
-      { title: "⏱ Сроки и стоимость публикации", link: "" },
-      { title: "💵 Промокод 100$ на первую публикацию", link: "" },
-      { title: "✍🏼 Вакансия “редактор научных статей“", link: "" },
+      {
+        title: "⚙️ Подробный аудит статьи с рецензией",
+        link: `${baseUrl}/main/audit/`,
+      },
+      {
+        title: "⏱ Сроки и стоимость публикации",
+        link: `${baseUrl}/main/audit/`,
+      },
+      {
+        title: "💵 Промокод 100$ на первую публикацию",
+        link: `${baseUrl}/main/promocode/`,
+      },
+      {
+        title: "✍🏼 Вакансия “редактор научных статей“",
+        link: `${baseUrl}/main/cooperation/`,
+      },
     ];
     return (
       <ul className="navbar__links nav-links">
         {listLinks.map(({ title = "", link = "" }) => (
-          <li className="nav-links__item">
+          <li className="nav-links__item" key={title}>
             <Button
               mode="link"
               appearance={{ type: "menu" }}
@@ -68,7 +81,7 @@ const MainMenu = () => {
     return (
       <ul className="navbar__cards">
         {listCard.map(({ title, img, alt }) => (
-          <li className="navbar__card navbar-card">
+          <li className="navbar__card navbar-card" key={title}>
             <a href="/" className="navbar-card__link">
               <img className="navbar-card__img" src={img} alt={title} />
               <span className="navbar-card__label text">{title}</span>
@@ -158,8 +171,13 @@ const MainMenu = () => {
     return (
       <ul className="social-list navbar__social">
         {listLinks.map(({ title, link, img }) => (
-          <li className="social-list__item">
-            <a href={link} target="_blank" className="social-list__link">
+          <li className="social-list__item" key={title}>
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className="social-list__link"
+            >
               <img className="social-list__link-img" src={img} alt={title} />
             </a>
           </li>

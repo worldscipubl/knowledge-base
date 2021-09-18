@@ -25,6 +25,9 @@ class ApiService {
 
     try {
       const response = await this.wspAxios.get(url, config);
+      // const totalCount = response.headers.get('X-Pagination-Total-Count') || "";
+      // console.log(totalCount);
+      // console.log(response.headers);
       this.logMessage("Response API", response);
       return response;
     } catch (error) {
