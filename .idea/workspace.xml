@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e41a2db4-7450-472e-bb48-9b1bb129b259" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/images/icons/file_download.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/images/icons/home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/images/icons/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader/Loader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader/Loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharingMenu/SharingMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharingMenu/SharingMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharingMenu/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/images/icons/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/icons/arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/style/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/style/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DrawerMenu/DrawerMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DrawerMenu/DrawerMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainMenu/MainMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainMenu/MainMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ApiService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="64831" />
+    <option name="totalTimeSeconds" value="76869" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -53,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/images/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/SharingMenu" />
       <recent name="$PROJECT_DIR$/src/common/images/icons" />
       <recent name="$PROJECT_DIR$/src/common" />
-      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/DocsViewer" />
-      <recent name="$PROJECT_DIR$/src/components/ExplorerCell" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/common/images" />
@@ -135,7 +137,8 @@
       <workItem from="1631812230696" duration="3612000" />
       <workItem from="1631870283587" duration="2407000" />
       <workItem from="1631900210708" duration="7654000" />
-      <workItem from="1631946902550" duration="5877000" />
+      <workItem from="1631946902550" duration="6311000" />
+      <workItem from="1632048522197" duration="10624000" />
     </task>
     <servers />
   </component>

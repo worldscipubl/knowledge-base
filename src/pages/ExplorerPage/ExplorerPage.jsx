@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 import knowledgeService from "../../services/KnowledgeService";
 import ExplorerCell from "../../components/ExplorerCell";
 import "./ExplorerPage.scss";
+import Modal from "../../components/Modal";
+import Loader from "../../components/Loader";
 
 const ExplorerPage = ({ setTitle }) => {
   const { folderId } = useParams();
@@ -14,6 +16,7 @@ const ExplorerPage = ({ setTitle }) => {
   };
 
   useEffect(() => {
+    setLoading(true);
     getResource(folderId)
       .then((data) => {
         setData(data);
@@ -27,8 +30,9 @@ const ExplorerPage = ({ setTitle }) => {
       });
   }, [folderId]);
 
-  if (loading) return <h2>Загрузка...</h2>;
+  if (loading) return <Loader />;
   if (!data) return <h2>Empty</h2>;
+
   return (
     <div className="explorer">
       {data.map(({ id, name, type }) => (

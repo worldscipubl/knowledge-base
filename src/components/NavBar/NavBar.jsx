@@ -1,16 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { useHistory, useLocation } from "react-router-dom";
 import { withNaming } from "@bem-react/classname";
+import "react-sharingbuttons/dist/main.css";
 import Typography from "../Typography";
 import ImgButton from "../ImgButton";
 import arrowImg from "../../common/images/icons/arrow.svg";
 import homeImg from "../../common/images/icons/home.svg";
 import downloadImg from "../../common/images/icons/file_download.svg";
 import shareImg from "../../common/images/icons/share.svg";
-import Button from "../Button";
 import "./NavBar.scss";
+import Modal from "../Modal";
+import SharingMenu from "../SharingMenu";
 
 const NavBar = ({ className, title = "", id }) => {
+  const [showModal, setShowModal] = useState(false);
   const history = useHistory();
   const cn = withNaming({ e: "__", m: "_", v: "_" });
   const style = cn("navBar");
@@ -61,12 +64,8 @@ const NavBar = ({ className, title = "", id }) => {
     />
   );
 
-  const ShareBtn = () => (
-    <ImgButton
-      className={style("nav-action")}
-      img={shareImg}
-      onClick={(e) => {}}
-    />
+  const ShareBtn = ({ ...props }) => (
+    <ImgButton className={style("nav-action")} img={shareImg} {...props} />
   );
 
   return (
@@ -91,9 +90,12 @@ const NavBar = ({ className, title = "", id }) => {
 
         <div className={style("share-actions")}>
           {isViewer && <DownloadBtn />}
-          <ShareBtn />
+          <ShareBtn onClick={() => setShowModal(true)} />
         </div>
       </div>
+      <Modal active={showModal} setActive={setShowModal}>
+        <SharingMenu />
+      </Modal>
     </div>
   );
 };

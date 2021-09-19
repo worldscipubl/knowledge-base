@@ -12,28 +12,19 @@
   flex: 0 0 58px;
   width: 100%;
   background-color: #ecba40;
-
-  @media screen and (min-height: 1200px) {
-    flex: 1 0 58px;
-  }
 }
 
 .app__navbar {
   flex: 0 0 58px;
   width: 100%;
-  @media screen and (min-height: 1200px) {
-    flex: 1 0 58px;
-  }
+
 }
 
 .app__content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   width: 100%;
-  flex: 1 0;
-  height: 0;
-
-  @media screen and (min-height: 1200px) {
-    flex: 48 0;
-  }
 }
 
 $p-side: 20px;
