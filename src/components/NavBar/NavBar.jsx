@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useHistory, useLocation } from "react-router-dom";
 import { withNaming } from "@bem-react/classname";
-import "react-sharingbuttons/dist/main.css";
 import Typography from "../Typography";
 import ImgButton from "../ImgButton";
 import arrowImg from "../../common/images/icons/arrow.svg";
