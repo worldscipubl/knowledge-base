@@ -2,7 +2,6 @@
   "name": "wsp-knowledge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://igorTyugaev.github.io/wsp-knowledge/",
   "dependencies": {
     "@bem-react/classname": "^1.5.12",
     "@testing-library/jest-dom": "^5.14.1",
