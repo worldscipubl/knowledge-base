@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e41a2db4-7450-472e-bb48-9b1bb129b259" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/SharingField/SharingField.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharingField/SharingField.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharingField/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharingMenu/SharingMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharingMenu/SharingMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharingMenu/SharingMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharingMenu/SharingMenu.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="88565" />
+    <option name="totalTimeSeconds" value="93000" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -38,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,9 +56,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/IFrame" />
-      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/SharingMenu" />
       <recent name="$PROJECT_DIR$/src/common/images/icons" />
     </key>
@@ -97,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +128,8 @@
       <workItem from="1631946902550" duration="6311000" />
       <workItem from="1632048522197" duration="10824000" />
       <workItem from="1632120440807" duration="9180000" />
-      <workItem from="1632320136916" duration="106000" />
+      <workItem from="1632320136916" duration="1151000" />
+      <workItem from="1632372843015" duration="3265000" />
     </task>
     <servers />
   </component>

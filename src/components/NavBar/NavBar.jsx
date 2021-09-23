@@ -12,6 +12,7 @@ import Modal from "../Modal";
 import SharingMenu from "../SharingMenu";
 
 const NavBar = ({ className, title = "", id }) => {
+  const url = window.location.href;
   const [showModal, setShowModal] = useState(false);
   const history = useHistory();
   const cn = withNaming({ e: "__", m: "_", v: "_" });
@@ -93,7 +94,7 @@ const NavBar = ({ className, title = "", id }) => {
         </div>
       </div>
       <Modal active={showModal} setActive={setShowModal}>
-        <SharingMenu />
+        <SharingMenu url={url} />
       </Modal>
     </div>
   );

@@ -1,13 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
 import "./SharingMenu.scss";
 
-const SharingMenu = () => {
-  const url = window.location.href;
+const SharingMenu = ({ url }) => {
+  const [tooltipTxt, setTooltipTxt] = useState("Скопировать в буфер");
   const subject = "lorem";
   const shareText = "lorem";
 
   return (
     <div className="SharingMenu">
+      <button
+        className="resp-sharing-button__link tooltip"
+        onClick={(e) => {
+          navigator.clipboard.writeText(url);
+          setTooltipTxt("Скопировано в буфер");
+        }}
+        onMouseOut={() => {
+          setTooltipTxt((prevState) =>
+            prevState !== "Скопировать в буфер"
+              ? "Скопировать в буфер"
+              : prevState
+          );
+        }}
+      >
+        <div className="resp-sharing-button resp-sharing-button--blank resp-sharing-button--medium">
+          <div
+            aria-hidden="true"
+            className="resp-sharing-button__icon resp-sharing-button__icon--solid"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path
+                fill="#000"
+                d="m182 155 50-49v262a24 24 0 0 0 48 0V106l50 49a24 24 0 1 0 33-33l-90-91a24 24 0 0 0-34 0l-90 91a24 24 0 1 0 33 33z"
+              />
+              <path
+                fill="#000"
+                d="M464 232a24 24 0 0 0-24 24v184H72V256a24 24 0 0 0-48 0v192a40 40 0 0 0 40 40h384a40 40 0 0 0 40-40V256a24 24 0 0 0-24-24z"
+              />
+            </svg>
+          </div>
+          <span className="tooltiptext" id="myTooltip">
+            {tooltipTxt}
+          </span>
+          {url}
+        </div>
+      </button>
+
       <a
         className="resp-sharing-button__link"
         href={`https://facebook.com/sharer/sharer.php?u=http%3A%2F%2F${url}`}
