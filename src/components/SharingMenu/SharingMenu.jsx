@@ -3,8 +3,9 @@ import "./SharingMenu.scss";
 
 const SharingMenu = ({ url }) => {
   const [tooltipTxt, setTooltipTxt] = useState("Скопировать в буфер");
-  const subject = "lorem";
-  const shareText = "lorem";
+  const subject = "Базы знаний World Sci Publ";
+  const shareText =
+    "Переходите по ссылке и получите доступ к материалам базы знаний сервиса научных публикаций World Sci Publ";
 
   return (
     <div className="SharingMenu">
@@ -47,7 +48,9 @@ const SharingMenu = ({ url }) => {
 
       <a
         className="resp-sharing-button__link"
-        href={`https://facebook.com/sharer/sharer.php?u=http%3A%2F%2F${url}`}
+        href={`https://facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+          url
+        )}`}
         target="_blank"
         rel="noopener"
         aria-label="Facebook"
@@ -67,7 +70,9 @@ const SharingMenu = ({ url }) => {
 
       <a
         className="resp-sharing-button__link"
-        href={`https://twitter.com/intent/tweet/?text=${shareText}.&amp;url=http%3A%2F%2F${url}`}
+        href={`https://twitter.com/intent/tweet/?text=${encodeURIComponent(
+          shareText
+        )}&url=${encodeURIComponent(url)}`}
         target="_blank"
         rel="noopener"
         aria-label="Twitter"
@@ -87,7 +92,9 @@ const SharingMenu = ({ url }) => {
 
       <a
         className="resp-sharing-button__link"
-        href={`mailto:?subject=${subject}.&amp;body=http%3A%2F%2F${url}`}
+        href={`mailto:?subject=${encodeURIComponent(
+          shareText
+        )}&body=${shareText} ${encodeURIComponent(url)}`}
         target="_self"
         rel="noopener"
         aria-label="E-Mail"
@@ -107,7 +114,9 @@ const SharingMenu = ({ url }) => {
 
       <a
         className="resp-sharing-button__link"
-        href={`http://vk.com/share.php?title=${shareText}.&amp;url=http%3A%2F%2F${url}`}
+        href={`http://vk.com/share.php?title=${encodeURIComponent(
+          shareText
+        )}&url=${encodeURIComponent(url)}`}
         target="_blank"
         rel="noopener"
         aria-label="VK"
@@ -127,7 +136,9 @@ const SharingMenu = ({ url }) => {
 
       <a
         className="resp-sharing-button__link"
-        href={`https://telegram.me/share/url?text=${shareText};url=http%3A%2F%2F${url}`}
+        href={`https://telegram.me/share/url?text=${encodeURIComponent(
+          shareText
+        )}&url=${encodeURIComponent(url)}`}
         target="_blank"
         rel="noopener"
         aria-label="Telegram"
@@ -147,7 +158,9 @@ const SharingMenu = ({ url }) => {
 
       <a
         className="resp-sharing-button__link"
-        href={`whatsapp://send?text=${shareText}.%20http%3A%2F%2F${url}`}
+        href={`https://wa.me/?text=${encodeURIComponent(
+          shareText + " " + url
+        )}`}
         target="_blank"
         rel="noopener"
         aria-label="WhatsApp"
