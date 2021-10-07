@@ -9,9 +9,9 @@ const DocsViewer = ({ fileId, title, className }) => {
 
   const IFrame = ({ className, fileId }) => {
     const url = `https://api.worldscipubl.com/v1/knowledge-base/file/${fileId}#view=Fit&statusbar=0`;
-    // const docViewer = `https://docs.google.com/gview?url=${url}&embedded=true`;
+    const docViewer = `https://docs.google.com/gview?url=${url}&embedded=true`;
 
-    return <iframe className={className} title={title} src={url} />;
+    return <iframe className={className} title={title} src={docViewer} />;
   };
 
   if (!fileId) return <h2>Not found...</h2>;

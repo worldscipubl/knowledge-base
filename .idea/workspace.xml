@@ -6,21 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e41a2db4-7450-472e-bb48-9b1bb129b259" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerCell/ExplorerCell.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SharingMenu/SharingMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharingMenu/SharingMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Typography/Typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Typography/Typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ApiService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/KnowledgeService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/KnowledgeService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="108129" />
+    <option name="totalTimeSeconds" value="14742" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -75,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/common/images" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -141,7 +127,7 @@
       <workItem from="1632372843015" duration="8441000" />
       <workItem from="1632393189681" duration="5839000" />
       <workItem from="1633073317423" duration="87000" />
-      <workItem from="1633598149269" duration="3647000" />
+      <workItem from="1633598149269" duration="4388000" />
     </task>
     <servers />
   </component>
