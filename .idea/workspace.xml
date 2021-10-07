@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="14742" />
+    <option name="totalTimeSeconds" value="15148" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -61,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/common/images" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -127,7 +127,7 @@
       <workItem from="1632372843015" duration="8441000" />
       <workItem from="1632393189681" duration="5839000" />
       <workItem from="1633073317423" duration="87000" />
-      <workItem from="1633598149269" duration="4388000" />
+      <workItem from="1633598149269" duration="4783000" />
     </task>
     <servers />
   </component>
