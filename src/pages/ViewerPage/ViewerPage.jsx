@@ -7,20 +7,7 @@ import knowledgeService from "../../services/KnowledgeService";
 const ViewerPage = ({ setTitle, setId }) => {
   const { fileId } = useParams();
 
-  useEffect(() => {
-    setId && setId(fileId);
-    knowledgeService
-      .getFileById(fileId)
-      .then((data) => {
-        // data && data[0] && setTitle && setTitle(data[0]?.parentName);
-      })
-      .catch((error) => {
-        console.log(error);
-      })
-      .finally(() => {
-        // setLoading(false);
-      });
-  }, [fileId]);
+  useEffect(() => {}, [fileId]);
 
   return (
     <div className="viewer-page">

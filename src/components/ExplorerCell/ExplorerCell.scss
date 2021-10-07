@@ -4,12 +4,23 @@
   display: flex;
   flex: 1 1 220px;
   overflow: hidden;
-  margin: 0.35em;
   position: relative;
   vertical-align: top;
   max-width: 100%;
   min-width: 0;
   cursor: pointer;
+
+  @media screen and (max-width: $bp-tablet) {
+    flex-basis: 150px;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    flex-basis: 145px;
+  }
+
+  @media screen and (max-width: 400px) {
+    flex-basis: 120px;
+  }
 
   &:before {
     content: "";
@@ -72,4 +83,8 @@
   white-space: nowrap;
   text-align: center;
   width: calc(100% - 24px);
+
+  @media screen and (max-width: $bp-mobile) {
+    font-size: 12px;
+  }
 }

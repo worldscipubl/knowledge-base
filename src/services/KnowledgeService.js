@@ -37,7 +37,7 @@ class KnowledgeService extends ApiService {
         url: `/knowledge-base/file/${fileId}`,
       })
         .then((response) => {
-          if (response.data) resolve(response.data);
+          if (response.data) resolve(response);
           else reject(new Error("No data"));
         })
         .catch((reason) => {

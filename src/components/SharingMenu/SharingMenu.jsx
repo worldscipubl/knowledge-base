@@ -52,7 +52,7 @@ const SharingMenu = ({ url }) => {
           url
         )}`}
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         aria-label="Facebook"
       >
         <div className="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
@@ -74,7 +74,7 @@ const SharingMenu = ({ url }) => {
           shareText
         )}&url=${encodeURIComponent(url)}`}
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         aria-label="Twitter"
       >
         <div className="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
@@ -93,10 +93,10 @@ const SharingMenu = ({ url }) => {
       <a
         className="resp-sharing-button__link"
         href={`mailto:?subject=${encodeURIComponent(
-          shareText
+          subject
         )}&body=${shareText} ${encodeURIComponent(url)}`}
         target="_self"
-        rel="noopener"
+        rel="noreferrer"
         aria-label="E-Mail"
       >
         <div className="resp-sharing-button resp-sharing-button--email resp-sharing-button--medium">
@@ -118,7 +118,7 @@ const SharingMenu = ({ url }) => {
           shareText
         )}&url=${encodeURIComponent(url)}`}
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         aria-label="VK"
       >
         <div className="resp-sharing-button resp-sharing-button--vk resp-sharing-button--medium">
@@ -140,7 +140,7 @@ const SharingMenu = ({ url }) => {
           shareText
         )}&url=${encodeURIComponent(url)}`}
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         aria-label="Telegram"
       >
         <div className="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--medium">
@@ -162,7 +162,7 @@ const SharingMenu = ({ url }) => {
           shareText + " " + url
         )}`}
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         aria-label="WhatsApp"
       >
         <div className="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--medium">

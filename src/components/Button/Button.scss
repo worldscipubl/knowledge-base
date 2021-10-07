@@ -65,6 +65,10 @@
       color: $gray-blue;
       text-align: left;
 
+      @media screen and (max-width: $bp-mobile) {
+        padding: 0.8em;
+      }
+
       &:hover {
         background: #E1E1E1;
         color: $gray-blue;

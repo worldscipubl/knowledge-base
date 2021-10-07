@@ -6,8 +6,19 @@
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   width: 100%;
   max-width: 1440px;
-  margin: 0 auto;
   padding: 24px 18px;
+  gap: 0.7em;
 
-  margin: -0.35em;
+  @media screen and (max-width: $bp-tablet) {
+    padding: 12px 8px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  }
+
+  @media screen and (max-width: 400px) {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
 }

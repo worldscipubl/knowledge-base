@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { withNaming } from "@bem-react/classname";
 import "./Modal.scss";
 import Button from "../Button";

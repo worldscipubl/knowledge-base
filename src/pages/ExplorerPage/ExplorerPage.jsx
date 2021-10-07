@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import knowledgeService from "../../services/KnowledgeService";
 import ExplorerCell from "../../components/ExplorerCell";
-import "./ExplorerPage.scss";
-import Modal from "../../components/Modal";
 import Loader from "../../components/Loader";
+import "./ExplorerPage.scss";
 
 const ExplorerPage = ({ setTitle }) => {
   const { folderId } = useParams();
