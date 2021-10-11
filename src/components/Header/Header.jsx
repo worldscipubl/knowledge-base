@@ -63,7 +63,7 @@ const Header = ({ className, title = "" }) => {
           </li>
         </ul>
       </div>
-      <DrawerMenu showMenu={showMenu} />
+      <DrawerMenu showMenu={showMenu} handlerMenu={handlerMenu} />
     </header>
   );
 };

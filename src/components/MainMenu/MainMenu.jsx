@@ -28,19 +28,19 @@ const MainMenu = () => {
     const listLinks = [
       {
         title: "⚙️ Подробный аудит статьи с рецензией",
-        link: `${baseUrl}/main/audit/`,
+        link: `${baseUrl}/audit/`,
       },
       {
         title: "⏱ Сроки и стоимость публикации",
-        link: `${baseUrl}/main/audit/`,
+        link: `https://m.me/worldscipubl?ref=w15970869`,
       },
       {
         title: "💵 Промокод 100$ на первую публикацию",
-        link: `${baseUrl}/main/promocode/`,
+        link: `${baseUrl}/promocode/`,
       },
       {
         title: "✍🏼 Вакансия “редактор научных статей“",
-        link: `${baseUrl}/main/cooperation/`,
+        link: `${baseUrl}/cooperation/`,
       },
     ];
     return (
@@ -73,16 +73,33 @@ const MainMenu = () => {
 
   const Cards = () => {
     const listCard = [
-      { title: "Сайт", img: siteImg },
-      { title: "Личный кабинет", img: cabinetImg },
-      { title: "Блог", img: blogImg },
-      { title: "Избранное", img: favoritesImg },
+      { title: "Сайт", img: siteImg, link: "https://worldscipubl.com/" },
+      {
+        title: "Личный кабинет",
+        img: cabinetImg,
+        link: "https://worldscipubl.com/cabinet/login",
+      },
+      {
+        title: "Блог",
+        img: blogImg,
+        link: "https://journal.worldscipubl.com/",
+      },
+      {
+        title: "Избранное",
+        img: favoritesImg,
+        link: "https://taplink.cc/world.sci.publ",
+      },
     ];
     return (
       <ul className="navbar__cards">
-        {listCard.map(({ title, img, alt }) => (
+        {listCard.map(({ title, img, link }) => (
           <li className="navbar__card navbar-card" key={title}>
-            <a href="/" className="navbar-card__link">
+            <a
+              href={link}
+              className="navbar-card__link"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="navbar-card__img" src={img} alt={title} />
               <span className="navbar-card__label text">{title}</span>
             </a>
@@ -124,7 +141,7 @@ const MainMenu = () => {
         className="navbar-banner__btn"
         appearance={{ type: "submit" }}
         mode="link"
-        href="https://m.me/worldscipubl"
+        href="https://m.me/worldscipubl?ref=w15709979"
         target="_blank"
       >
         Запустить чат-бот
