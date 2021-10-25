@@ -154,6 +154,11 @@ const MainMenu = () => {
   const SocialList = () => {
     const listLinks = [
       {
+        title: "linkedin",
+        link: "https://www.linkedin.com/company/31339400/",
+        img: "https://camo.githubusercontent.com/c8a9c5b414cd812ad6a97a46c29af67239ddaeae08c41724ff7d945fb4c047e5/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6c696e6b6564696e2e737667",
+      },
+      {
         title: "telegram",
         link: "https://teleg.run/worldscipubl",
         img: "https://camo.githubusercontent.com/f4b401dd7cd9b7840fd31acafd49e151a80e4c9600bf219934461b96dd98e013/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f74656c656772616d2e737667",

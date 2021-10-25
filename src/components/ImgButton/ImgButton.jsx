@@ -7,6 +7,7 @@ const ImgButton = ({
   img,
   appearance: { mirrorY } = {},
   onClick,
+  ...props
 }) => {
   const cn = withNaming({ e: "__", m: "_", v: "_" });
   const style = cn("img-button");
@@ -14,6 +15,7 @@ const ImgButton = ({
     <button
       className={style(null, [className])}
       onClick={(event) => onClick && onClick(event)}
+      {...props}
     >
       <img className={style("img", { mirrorY })} src={img} alt="" />
     </button>

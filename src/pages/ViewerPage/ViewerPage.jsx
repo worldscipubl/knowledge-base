@@ -2,12 +2,13 @@ import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import DocsViewer from "../../components/DocsViewer";
 import "./ViewerPage.scss";
-import knowledgeService from "../../services/KnowledgeService";
 
 const ViewerPage = ({ setTitle, setId }) => {
   const { fileId } = useParams();
 
-  useEffect(() => {}, [fileId]);
+  useEffect(() => {
+    if (setId) setId(fileId);
+  }, [fileId]);
 
   return (
     <div className="viewer-page">

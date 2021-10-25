@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useHistory, useLocation } from "react-router-dom";
 import { withNaming } from "@bem-react/classname";
+import download from "downloadjs";
 import Typography from "../Typography";
 import ImgButton from "../ImgButton";
 import arrowImg from "../../common/images/icons/arrow.svg";
@@ -56,12 +57,9 @@ const NavBar = ({ className, title = "", id }) => {
     <ImgButton
       className={style("nav-action")}
       img={downloadImg}
-      onClick={(e) => {
-        window.open(
-          `https://drive.google.com/uc?id=${id}&export=download`,
-          "_blank"
-        );
-      }}
+      onClick={(e) =>
+        download(`https://api.worldscipubl.com/v1/knowledge-base/file/${id}`)
+      }
     />
   );
 
