@@ -9,6 +9,15 @@
   padding: 24px 18px;
   gap: 0.7em;
 
+  &_list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    padding: 24px 18px;
+    gap: 0;
+  }
+
   @media screen and (max-width: $bp-tablet) {
     padding: 12px 8px;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));

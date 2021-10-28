@@ -4,6 +4,7 @@ import knowledgeService from "../../services/KnowledgeService";
 import ExplorerCell from "../../components/ExplorerCell";
 import Loader from "../../components/Loader";
 import "./ExplorerPage.scss";
+import ExplorerItem from "../../components/ExplorerItem";
 
 const ExplorerPage = ({ setTitle }) => {
   const { folderId } = useParams();
@@ -33,9 +34,9 @@ const ExplorerPage = ({ setTitle }) => {
   if (!data) return <h2>Empty</h2>;
 
   return (
-    <div className="explorer">
+    <div className="explorer explorer_list">
       {data.map(({ id, name, type }) => (
-        <ExplorerCell key={id} id={id} title={name} type={type} />
+        <ExplorerItem key={id} id={id} title={name} type={type} />
       ))}
     </div>
   );

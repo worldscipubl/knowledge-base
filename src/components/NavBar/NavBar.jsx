@@ -58,6 +58,7 @@ const NavBar = ({ className, title = "", id }) => {
       className={style("nav-action")}
       img={downloadImg}
       onClick={(e) =>
+        //  https://drive.google.com/uc?id=${id}&export=download
         download(`https://api.worldscipubl.com/v1/knowledge-base/file/${id}`)
       }
     />

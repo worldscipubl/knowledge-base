@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e41a2db4-7450-472e-bb48-9b1bb129b259" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ExplorerItem/ExplorerItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ExplorerItem/ExplorerItem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ExplorerItem/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImgButton/ImgButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainMenu/MainMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainMenu/MainMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocsViewer/DocsViewer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ViewerPage/ViewerPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="21181" />
+    <option name="totalTimeSeconds" value="25296" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -57,8 +57,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/IFrame" />
       <recent name="$PROJECT_DIR$/src/components/SharingMenu" />
@@ -136,7 +136,10 @@
       <workItem from="1633598149269" duration="5040000" />
       <workItem from="1633964520493" duration="1213000" />
       <workItem from="1634391197651" duration="1294000" />
-      <workItem from="1635135495747" duration="4440000" />
+      <workItem from="1635135495747" duration="4660000" />
+      <workItem from="1635323600530" duration="1277000" />
+      <workItem from="1635331316816" duration="93000" />
+      <workItem from="1635416688433" duration="2765000" />
     </task>
     <servers />
   </component>

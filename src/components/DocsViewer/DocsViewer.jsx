@@ -9,7 +9,8 @@ const DocsViewer = ({ fileId, title, className }) => {
 
   const IFrame = ({ className, fileId }) => {
     const url = `https://api.worldscipubl.com/v1/knowledge-base/file/${fileId}`;
-    const docViewer = `https://docs.google.com/gview?url=${url}&embedded=true`;
+    // const docViewer = `https://docs.google.com/gview?url=${url}&embedded=true`;
+    const docViewer = `https://drive.google.com/file/d/${fileId}/preview`;
 
     return <iframe className={className} title={title} src={docViewer} />;
   };
