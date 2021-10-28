@@ -13,6 +13,7 @@
 }
 
 .explorer-item__inner {
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   align-items: center;

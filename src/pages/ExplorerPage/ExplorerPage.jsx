@@ -33,7 +33,7 @@ const ExplorerPage = ({ setTitle }) => {
   if (!data) return <h2>Empty</h2>;
 
   return (
-    <div className="explorer explorer_list">
+    <div className="explorer">
       {data.map(({ id, name, type }) => (
         <ExplorerItem key={id} id={id} title={name} type={type} />
       ))}

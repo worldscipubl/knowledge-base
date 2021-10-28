@@ -11,14 +11,14 @@ const ExplorerItem = ({ className, title, type, id }) => {
       to={id ? (type === "file" ? `/viewer/${id}` : `/explorer/${id}`) : false}
       className="explorer-item"
     >
-      <div className="explorer-item explorer-item__inner">
+      <div className="explorer-item__inner">
         <img
-          className="explorer-item explorer-item__img"
+          className="explorer-item__img"
           src={type === "folder" ? folderImg : filePdfImg}
           alt=""
         />
         <Typography
-          className="explorer-item explorer-item__title"
+          className="explorer-item__title"
           tag="h3"
           appearance={{ size: "default", color: "gray-blue" }}
         >
