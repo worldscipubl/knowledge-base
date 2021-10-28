@@ -7,8 +7,7 @@
     <list default="true" id="e41a2db4-7450-472e-bb48-9b1bb129b259" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ExplorerItem/ExplorerItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerItem/ExplorerItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExplorerItem/ExplorerItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerItem/ExplorerItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="28193" />
+    <option name="totalTimeSeconds" value="29059" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -137,7 +136,7 @@
       <workItem from="1635331316816" duration="93000" />
       <workItem from="1635416688433" duration="3129000" />
       <workItem from="1635432864335" duration="1056000" />
-      <workItem from="1635435142536" duration="1608000" />
+      <workItem from="1635435142536" duration="2239000" />
     </task>
     <servers />
   </component>
