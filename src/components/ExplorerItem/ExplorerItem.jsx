@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { withNaming } from "@bem-react/classname";
 import { NavLink } from "react-router-dom";
 import Typography from "../Typography";
@@ -7,8 +7,14 @@ import filePdfImg from "../../common/images/icons/file-pdf.svg";
 import "./ExplorerItem.scss";
 
 const ExplorerItem = ({ className, title, type, id }) => {
+  const [, updateState] = React.useState();
+  const forceUpdate = React.useCallback(() => updateState({}), []);
   const cn = withNaming({ e: "__", m: "_", v: "_" });
   const style = cn("explorer-item");
+
+  useEffect(() => {
+    setTimeout(forceUpdate, 1000);
+  }, []);
 
   return (
     <NavLink
