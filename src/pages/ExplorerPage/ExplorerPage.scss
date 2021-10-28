@@ -1,33 +1,15 @@
 @use './src/common/style/global' as *;
 
 .explorer {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 1440px;
   padding: 24px 18px;
-  gap: 0.7em;
+  gap: 0;
+  grid-template-columns: none;
 
   @media screen and (max-width: $bp-tablet) {
     padding: 12px 8px;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  }
-
-  @media screen and (max-width: $bp-mobile) {
-    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
-  }
-
-  @media screen and (max-width: 400px) {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  }
-
-  &_list {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 1440px;
-    padding: 24px 18px;
-    gap: 0;
-    grid-template-columns: none;
   }
 }
