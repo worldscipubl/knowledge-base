@@ -33,7 +33,8 @@ const Header = ({ className, title = "" }) => {
                 text_color_gray-blue
                 text_weight_bold"
           >
-            Publication service <br />
+            Сервис научных публикаций
+            <br />
             World Sci Publ
           </h3>
         </a>
@@ -51,11 +52,12 @@ const Header = ({ className, title = "" }) => {
               </span>
             </a>
           </li>
-          <li className="header__action-item">
-            <button
-              className={`burger ${!!showMenu ? "is_active" : ""}`}
-              onClick={handlerMenu}
-            >
+          <li
+            className={`header__action-item ${!!showMenu ? "is_active" : ""}`}
+            onClick={handlerMenu}
+          >
+            <button className="button button_burger">Меню</button>
+            <button className="burger">
               <span className="burger__item"></span>
               <span className="burger__item"></span>
               <span className="burger__item"></span>

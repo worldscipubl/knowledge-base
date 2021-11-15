@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e41a2db4-7450-472e-bb48-9b1bb129b259" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExplorerItem/ExplorerItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerItem/ExplorerItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExplorerItem/ExplorerItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExplorerItem/ExplorerItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ExplorerPage/ExplorerPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/style/global/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/style/global/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/style/global/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/style/global/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DrawerMenu/DrawerMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DrawerMenu/DrawerMenu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="29680" />
+    <option name="totalTimeSeconds" value="2134" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -63,7 +67,7 @@
       <recent name="$PROJECT_DIR$/src/common/images" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -99,8 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +141,9 @@
       <workItem from="1635331316816" duration="93000" />
       <workItem from="1635416688433" duration="3129000" />
       <workItem from="1635432864335" duration="1056000" />
-      <workItem from="1635435142536" duration="2776000" />
+      <workItem from="1635435142536" duration="3313000" />
+      <workItem from="1635762808739" duration="197000" />
+      <workItem from="1636967496569" duration="2950000" />
     </task>
     <servers />
   </component>

@@ -106,6 +106,35 @@
     }
   }
 
+  &_burger {
+    display: block;
+    background-color: $white;
+    color: $dark-blue;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #B3B3B3;
+    padding: 0.4em 1em;
+    border-radius: 8px;
+    overflow: hidden;
+
+    &:hover {
+      background-color: $dark-blue;
+      border-color: $dark-blue;
+      color: white;
+    }
+
+    &.active, &.is-nav-selected {
+      background-color: $dark-blue;
+      border-color: $dark-blue;
+      color: $white;
+
+      &:hover {
+        background-color: #{lighter($dark-blue, .65)};
+        border-color: #{lighter($dark-blue, .65)};
+      }
+    }
+  }
+
   &__img {
     display: block;
     height: 18px;

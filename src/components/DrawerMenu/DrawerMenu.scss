@@ -74,7 +74,7 @@
 }
 
 .burger {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   border: 0;
@@ -83,35 +83,47 @@
   height: 70px;
   width: 30px;
   cursor: pointer;
+  outline: none;
 
   position: relative;
   z-index: #{$z-index-header + 2};
 
   &__item {
+    outline: none;
     display: block;
     width: 100%;
     height: 2px;
     background: $black;
-    transition: .3s;
+    transition: transform .3s;
 
     & + & {
       margin-top: 5px;
     }
   }
+}
 
+.header__action-item.is_active {
+  .button_burger {
+    display: none;
+  }
 
-  &.is_active {
-    .burger__item:nth-of-type(1) {
+  .burger {
+    display: flex;
+  }
+
+  .burger__item {
+    display: flex;
+
+    &:nth-of-type(1) {
       transform: translate3d(0, 7px, 0) rotate(45deg);
     }
 
-    .burger__item:nth-of-type(2) {
+    &:nth-of-type(2) {
       opacity: 0;
     }
 
-    .burger__item:nth-of-type(3) {
+    &:nth-of-type(3) {
       transform: translate3d(0, -7px, 0) rotate(-45deg);
     }
   }
 }
-
