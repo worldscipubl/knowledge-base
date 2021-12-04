@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e41a2db4-7450-472e-bb48-9b1bb129b259" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/style/global/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/style/global/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/images/logo/logo_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images/logo/logo_black.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/style/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/style/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/style/global/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/style/global/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DrawerMenu/DrawerMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DrawerMenu/DrawerMenu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="2134" />
+    <option name="totalTimeSeconds" value="2683" />
     <option name="naggedAbout" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -143,7 +140,10 @@
       <workItem from="1635432864335" duration="1056000" />
       <workItem from="1635435142536" duration="3313000" />
       <workItem from="1635762808739" duration="197000" />
-      <workItem from="1636967496569" duration="2950000" />
+      <workItem from="1636967496569" duration="3257000" />
+      <workItem from="1636983173020" duration="272000" />
+      <workItem from="1638366665458" duration="5000" />
+      <workItem from="1638601612881" duration="510000" />
     </task>
     <servers />
   </component>

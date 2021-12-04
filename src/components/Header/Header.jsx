@@ -33,7 +33,7 @@ const Header = ({ className, title = "" }) => {
                 text_color_gray-blue
                 text_weight_bold"
           >
-            Сервис научных публикаций
+            База знаний
             <br />
             World Sci Publ
           </h3>
